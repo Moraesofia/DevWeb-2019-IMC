@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- custom css, js-->
-	<link rel="stylesheet" href="custom-style.css" type="text/css">
-	<script type="text/javascript" src="custom-script.js"></script>
+	<link rel="stylesheet" href="assets/custom-style.css" type="text/css">
+	<script type="text/javascript" src="assets/custom-script.js"></script>
 	<!-- Template css-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
@@ -47,12 +47,12 @@
 				<div class="form-group row" id="container">
 					<form id="pessoas">
 						<label>Sua altura (metros) </label>
-						<input type="number" min="0" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" id="altura" value="1.67"
-							class="form-control">
+						<input type="number" min="0" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" id="altura"
+							class="form-control" value="0.01">
 						<br>
 						<label>Seu peso (Kg) </label>
-						<input type="number" min="0" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" id="peso" value="54"
-							class="form-control col-xs-2" width="50px">
+						<input type="number" min="0" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" id="peso"
+							class="form-control col-xs-2" value="0">
 						<br>
 						<button type="button" class="btn btn-outline-primary" onclick="calcular();">Calcular</button>
 						<button type="reset" class="btn btn-outline-dark" style="color: black">Limpar</button>
@@ -62,8 +62,8 @@
 				<div id="final" style="display: none;">
 					<h2>Resultado <span class="icon fa-wpforms"></span></h2>
 					<div id="calc"></div>
-					<p>Mais informações <a
-							href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc" target="_blank">aqui!</a></p>
+					<p>Mais informações <a href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc"
+							target="_blank">aqui!</a></p>
 				</div>
 			</div>
 			<nav>

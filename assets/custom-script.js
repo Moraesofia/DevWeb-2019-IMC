@@ -57,7 +57,7 @@ function textoImc(imc) {
         result = "Obesidade grau 1";
     } else if (imc < 40) {
         result = "Obesidade grau 2";
-    } else {
+    } else if (imc >= 40){
         result = "Obesidade grau 3";
     }
 
