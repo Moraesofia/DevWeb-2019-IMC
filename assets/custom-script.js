@@ -38,6 +38,7 @@ function calcular() {
 
 function calculaImc() {
     var altura = document.getElementById("altura").value;
+    altura = altura/100;
     var peso = document.getElementById("peso").value;
 
     var imc = peso / Math.pow(altura, 2);
